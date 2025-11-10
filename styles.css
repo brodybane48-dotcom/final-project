@@ -1,0 +1,53 @@
+body{
+margin: 0;
+background-color: #ffce00;
+}
+
+.title{
+display: flex;
+justify-content: center;
+}
+
+.sub-title{
+display: flex;
+justify-content: center;
+}
+
+.site-id{
+background-color: black;
+padding: 20px;
+padding-left: 20px;
+font-size: 20px;
+color: #ffce00;
+}
+
+.horizontal-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style-type: none;
+padding: 50px;
+background-color:gainsboro;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.nav-link{
+color: gainsboro;
+font-size: 30px;
+text-decoration: none;
+background-color: black;
+border-color: #ffce00;
+border-style: solid;
+border-radius: 20px;
+padding: 30px;
+}
+
+.nav-link:hover{
+text-decoration: underline;
+color: #ffce00;
+padding: 40px;
+}
+
