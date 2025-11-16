@@ -1,75 +1,46 @@
 body{
 margin: 0;
-background-color: #ffce00;
+background-color: #00bfff;
 }
 
-.title{
-display: flex;
-justify-content: center;
-}
-
-.sub-title{
-display: flex;
-justify-content: center;
-}
-
-.site-id{
-background-color: black;
-padding: 5px;
-font-size: 20px;
-color: #ffce00;
+.cloud-1{
+width: 400px;
+height: auto;
 position: fixed;
-top: 0;
-left: 0;
-right: 0;
+bottom: 20px;
+left: 250px;
 }
 
-.horizontal-nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style-type: none;
-padding: 30px;
-background-color:gainsboro;
-margin-bottom: 0px;
+.cloud-2{
+width: 300px;
+height: auto;
+position: fixed;
+bottom: 250px;
+right: 20px;
 }
 
-.nav-link{
-color: gainsboro;
-font-size: 20px;
-text-decoration: none;
-background-color: black;
-border-color: #ffce00;
-border-style: solid;
-border-radius: 20px;
-padding: 15px;
+.cloud-3{
+width: 200px;
+height: auto;
+position: fixed;
+bottom: 400px;
+left: 15px;
 }
 
-.nav-link:hover{
-text-decoration: underline;
-color: #ffce00;
-padding: 40px;
+.triangle{
+width: 300px;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
 }
 
-.footer{
-background-color: black;
-color: #ffce00;
-display: flex;
-justify-content: center;
-
-}
-
-.footer-list{
-list-style: none;
-}
-
-.footer-link{
-color: #ffce00;
-font-size: 20px;
-}
-
-.links{
-margin-right: 400px;
+.triangle:hover{
+width: 400px;
+background-color: rgba(123, 217, 246, 30%);
+padding: 20px;
+border-radius: 100%;
 }
 
 
