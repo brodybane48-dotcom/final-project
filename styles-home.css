@@ -1,0 +1,40 @@
+.background-bar{
+background-color: rgba(245, 245, 245, 50%);
+margin-top: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.nav-image{
+max-width: 200px;
+max-height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.nav-image:hover{
+max-width: 300px;
+max-height: auto;
+}
+
+.button{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.button-text{
+position: absolute;
+font-size: 20px;
+background-color: rgba(245, 245, 245, 20%);
+padding: 10px;
+border-radius: 50%;
+}
+
+
+
+  
+
+

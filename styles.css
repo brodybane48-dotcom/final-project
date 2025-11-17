@@ -4,7 +4,7 @@ background-color: #00bfff;
 }
 
 .cloud-1{
-width: 400px;
+width: 500px;
 height: auto;
 position: fixed;
 bottom: 20px;
@@ -12,7 +12,7 @@ left: 250px;
 }
 
 .cloud-2{
-width: 300px;
+width: 400px;
 height: auto;
 position: fixed;
 bottom: 250px;
@@ -20,28 +20,88 @@ right: 20px;
 }
 
 .cloud-3{
-width: 200px;
+width: 300px;
 height: auto;
 position: fixed;
 bottom: 400px;
 left: 15px;
 }
 
+.cloud-1a{
+width: 200px;
+height: auto;
+position: fixed;
+bottom: 500px;
+right: 500px;
+}
+
+.cloud-3a{
+width: 100px;
+height: auto;
+position: fixed;
+bottom: 700px;
+left: 500px;
+}
+
 .triangle{
 width: 300px;
-height: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 10px;
+margin-top: 20px;
+margin-bottom: -50px;
 }
 
 .triangle:hover{
 width: 400px;
-background-color: rgba(123, 217, 246, 30%);
-padding: 20px;
-border-radius: 100%;
+padding: 50px;
+background-image: url(images_for_web/glow-.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-bottom: -5px;
 }
+
+.lines{
+width: 175px;
+height: 390px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+}
+
+.text{
+text-align: center;
+display: none;
+background-color: rgba(123, 217, 246, 30%);
+color: #ffffff;
+z-index: 10;
+position: relative;
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+body:has(.triangle:hover) .text{
+display: block;
+}
+
+.scroll-element{
+height: 200vh;
+display: flex;
+flex-direction: column;
+justify-content: end;
+}
+
+
+
+
+
+
+
+
+
 
 
 
