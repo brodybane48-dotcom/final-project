@@ -18,6 +18,22 @@ max-width: 300px;
 max-height: auto;
 }
 
+.triangle-nav{
+max-width: 200px;
+max-height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.triangle-nav:hover{
+width: 300px;
+padding: 50px;
+background-image: url(images_for_web/glow-.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
 .button{
 text-align: center;
 display: flex;
@@ -33,8 +49,72 @@ padding: 10px;
 border-radius: 50%;
 }
 
+.content{
+display: flex;
+justify-content:space-around;
+}
 
+.box{
+background-color: aliceblue;
+max-width: 500px;
+padding-left: 10px;
+}
 
-  
+.hands{
+display:flex;
+justify-content: space-between;
+margin-top: 200px;
+}
 
+.left-hand{
+width: 40%;
+height: 40%;
+}
 
+.right-hand{
+width: 40%;
+height: 40%;
+}
+
+.blue_cigarette{
+height: 600px;
+margin-top: -50px;
+}
+
+.blue_cigarette:active{
+display: none;
+}
+
+.blue_cigarette:hover{
+cursor: pointer;
+}
+
+.smoke_cigarette_{
+text-align: center;
+display: none;
+}
+
+body:has(.blue_cigarette:active) .smoke_cigarette_{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+width: 180px;
+margin-top: -626px;
+height: auto;
+}
+
+.test{
+display: none;
+}
+
+body:has(.blue_cigarette:active) .test{
+display: flex;
+justify-content: center;
+text-align: center;
+color: #ffffff;
+z-index: 10;
+position: relative;
+font-size: 25px;
+margin-bottom: -58px;
+}
