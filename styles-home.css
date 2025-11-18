@@ -44,9 +44,6 @@ justify-content: center;
 .button-text{
 position: absolute;
 font-size: 20px;
-background-color: rgba(245, 245, 245, 20%);
-padding: 10px;
-border-radius: 50%;
 }
 
 .content{
@@ -104,11 +101,11 @@ margin-top: -626px;
 height: auto;
 }
 
-.test{
+.taste{
 display: none;
 }
 
-body:has(.blue_cigarette:active) .test{
+body:has(.blue_cigarette:active) .taste{
 display: flex;
 justify-content: center;
 text-align: center;
