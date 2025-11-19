@@ -1,0 +1,52 @@
+.paragraph{
+color: #ffffff;
+max-width: 1000px;
+margin: auto;
+margin-top: 50px;
+font-size: 30px;
+
+}
+
+.love{
+color: #ffffff;
+text-align: center;
+margin-top: -40px;
+font-size: 75px;
+position: absolute;
+top: 100px;
+z-index: 0;
+}
+
+.heart{
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+}
+
+.heart:hover{
+cursor: pointer;
+}
+
+.heart:active{
+display: none;
+}
+
+.heart-parts{
+display: flex;
+display: none;
+justify-content: center;
+gap: 600px;
+position: relative;
+}
+
+.split{
+z-index: 1;
+}
+
+body:has(.heart:active) .heart-parts{
+display: flex;
+justify-content: center;
+gap: 500px;
+}
