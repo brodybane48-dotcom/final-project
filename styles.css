@@ -43,6 +43,14 @@ bottom: 700px;
 left: 500px;
 }
 
+.cloud-2a{
+width: 50px;
+height: auto;
+position: fixed;
+bottom: 850px;
+right: 200px;
+}
+
 .triangle{
 width: 300px;
 display: block;
