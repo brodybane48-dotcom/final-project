@@ -4,7 +4,7 @@ max-width: 1000px;
 margin: auto;
 margin-top: 50px;
 font-size: 30px;
-
+margin-bottom: 50px;
 }
 
 .love{
@@ -13,7 +13,7 @@ text-align: center;
 margin-top: -40px;
 font-size: 75px;
 position: absolute;
-top: 100px;
+top: 250px;
 z-index: 0;
 }
 
@@ -22,7 +22,8 @@ width: 50%;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 0;
+margin-bottom: -50px;
+margin-top: -50px;
 }
 
 .heart:hover{
@@ -49,4 +50,14 @@ body:has(.heart:active) .heart-parts{
 display: flex;
 justify-content: center;
 gap: 500px;
+}
+
+.doesnt{
+color: red;
+}
+
+.fear-not{
+color: white;
+display: flex;
+justify-content: center;
 }

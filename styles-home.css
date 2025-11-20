@@ -119,12 +119,12 @@ text-align: center;
 color: #ffffff;
 position: relative;
 font-size: 25px;
-background-color: rgba(20, 132, 205,30%);
+background-color: #00bfff;
 padding: 5px;
 max-width: 200px;
 margin: auto;
 margin-top: 20px;
-margin-bottom: -92px;
+margin-bottom: -63px;
 z-index: 0;
 border-radius: 30%;
 }
