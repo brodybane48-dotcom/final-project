@@ -18,7 +18,7 @@ z-index: 0;
 }
 
 .heart{
-width: 50%;
+width: 40%;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -61,3 +61,77 @@ color: white;
 display: flex;
 justify-content: center;
 }
+
+.bottomtriangle{
+display: block;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.bottomtriangle:hover{
+background-image: url(images_for_web/glow-.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+width: 300px;
+padding: 50px;
+}
+
+.arrow{
+text-align: center;
+font-size: 30px;
+margin-top: -100px;
+color: white;
+}
+
+.fearnot{
+text-align: center;
+color: white;
+font-size: 100px;
+background-color: #00bfff;
+}
+
+.paragraph2{
+color: #ffffff;
+max-width: 1000px;
+margin: auto;
+margin-top: 50px;
+font-size: 30px;
+text-align: center;
+}
+
+.side_cigarette_{
+max-width: 75%;
+margin-top: -100px;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.side_cigarette_:hover{
+cursor: pointer;
+}
+
+.side_cigarette_:active{
+display: none;
+}
+
+.smoking_side{
+display: none;
+}
+
+body:has(.side_cigarette_:active) .smoking_side{
+display: block;
+max-width: 80%;
+margin-top: -390px;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
