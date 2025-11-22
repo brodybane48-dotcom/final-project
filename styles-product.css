@@ -100,9 +100,11 @@ display: none;
 
 body:has(.warning-symbol:active) .donot{
 display: block;
-color: #ffffff;
+color: black;
 text-align: center;
 margin-top: 50px;
 font-size: 30px;
 margin-bottom: 50px;
+background-color: #ffcc00;
+padding: 20px;
 }
