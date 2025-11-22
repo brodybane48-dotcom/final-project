@@ -72,3 +72,37 @@ margin-top: 50px;
 font-size: 30px;
 margin-bottom: 50px;
 }
+
+.warning-symbol{
+width: 30%;
+margin-top: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.warning-symbol:hover{
+cursor: pointer;
+}
+
+.warning-symbol:active{
+
+}
+
+.donot{
+color: #ffffff;
+text-align: center;
+margin-top: 50px;
+font-size: 30px;
+margin-bottom: 50px;
+display: none;
+}
+
+body:has(.warning-symbol:active) .donot{
+display: block;
+color: #ffffff;
+text-align: center;
+margin-top: 50px;
+font-size: 30px;
+margin-bottom: 50px;
+}
