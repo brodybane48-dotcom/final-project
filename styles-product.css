@@ -2,4 +2,39 @@
 width: 700px;
 margin-top: 100px;
 margin-bottom: -20px;
+margin-right: 100px;
+}
+
+.packinhand:hover{
+cursor: pointer;
+}
+
+.packinhand:active{
+display: none;
+}
+
+body:has(.packinhand:active) .openpack{
+display: block;
+width: 700px;
+margin-top: 100px;
+margin-bottom: -20px;
+margin-right: 100px;
+}
+
+.middlesection{
+display: flex;
+justify-content:flex-start;
+}
+
+.description{
+color: #ffffff;
+max-width: 900px;
+margin: auto;
+text-align: center;
+font-size: 30px;
+margin-right: 50px;
+}
+
+.openpack{
+display: none;
 }
