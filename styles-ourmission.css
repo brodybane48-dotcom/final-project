@@ -56,12 +56,6 @@ gap: 500px;
 color: red;
 }
 
-.fear-not{
-color: white;
-display: flex;
-justify-content: center;
-}
-
 .bottomtriangle{
 display: block;
 position: relative;
@@ -88,50 +82,36 @@ margin-top: -100px;
 color: white;
 }
 
-.fearnot{
-text-align: center;
-color: white;
-font-size: 100px;
-background-color: #00bfff;
+.flame_off{
+max-width: 50%;
+position: absolute;
+right: 0;
 }
 
-.paragraph2{
-color: #ffffff;
-max-width: 1000px;
-margin: auto;
-margin-top: 50px;
-font-size: 30px;
-text-align: center;
-}
-
-.side_cigarette_{
-max-width: 75%;
-margin-top: -100px;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-.side_cigarette_:hover{
+.flame_off:hover{
 cursor: pointer;
 }
 
-.side_cigarette_:active{
+.flame_off:active{
 display: none;
 }
 
-.smoking_side{
+.flame_on{
 display: none;
 }
 
-body:has(.side_cigarette_:active) .smoking_side{
-display: block;
-max-width: 80%;
-margin-top: -390px;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
+body:has(.flame_off:active) .flame_on{
+display:block;
+max-width: 50%;
+position: absolute;
+right: 0;
 }
 
+.center{
+display: flex;
+justify-content: space-between;
+}
+
+.left-text{
+text-align: center;
+}
