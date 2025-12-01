@@ -1,11 +1,12 @@
 body{
-background-color: maroon;
+background-color: #00bfff;
 }
 
 .box{
-background-color:blanchedalmond;
+background-color: rgb(20, 132, 205, 40%);
 max-width: 1250px;
 display: block;
+position: relative;
 margin-left: auto;
 margin-right: auto;
 padding: 20px;
@@ -13,6 +14,11 @@ margin-top: 50px;
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
 font-size: 25px;
+z-index: 10;
+color: white;
+border: rgb(20, 132, 205);
+border-style: solid;
+border-bottom: none;
 }
 
 .true{
@@ -35,9 +41,10 @@ text-align: center;
 }
 
 .footer{
-background-color: rgb(238, 190, 117);
+background-color: rgb(20, 132, 205, 70%);
 max-width: 1250px;
 display: block;
+position: relative;
 margin-left: auto;
 margin-right: auto;
 padding: 20px;
@@ -45,6 +52,11 @@ margin-top: 0px;
 border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
 font-size: 25px;
+z-index: 10;
+color: white;
+border: rgb(20, 132, 205);
+border-style: solid;
+border-top: none;
 }
 
 .bottomtriangle{
@@ -69,5 +81,72 @@ padding: 50px;
 .link{
 display: block;
 text-align: center;
+color: white;
+}
+
+.contact-cite{
+display: flex;
+justify-content: space-around;
+}
+
+.contact-cite2{
+display: flex;
+justify-content: space-around;
+}
+
+.contact{
+margin-left: -100px;
+}
+
+.cite{
+margin-left: -210px;
+}
+
+.cloud-1{
+width: 500px;
+height: auto;
+position: absolute;
+bottom: 20px;
+left: 250px;
+}
+
+.cloud-2{
+width: 400px;
+height: auto;
+position: absolute;
+bottom: 250px;
+right: 20px;
+}
+
+.cloud-3{
+width: 300px;
+height: auto;
+position: absolute;
+bottom: 400px;
+left: 15px;
+}
+
+.cloud-1a{
+width: 200px;
+height: auto;
+position: absolute;
+bottom: 500px;
+right: 500px;
+}
+
+.cloud-3a{
+width: 100px;
+height: auto;
+position: absolute;
+bottom: 700px;
+left: 500px;
+}
+
+.cloud-2a{
+width: 50px;
+height: auto;
+position: absolute;
+bottom: 850px;
+right: 200px;
 }
 
