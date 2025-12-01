@@ -26,6 +26,10 @@ display: flex;
 justify-content:flex-start;
 }
 
+.list{
+list-style-type: none;
+}
+
 .description{
 color: #ffffff;
 max-width: 900px;

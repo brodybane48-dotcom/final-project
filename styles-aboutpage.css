@@ -1,0 +1,73 @@
+body{
+background-color: maroon;
+}
+
+.box{
+background-color:blanchedalmond;
+max-width: 1250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+margin-top: 50px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+font-size: 25px;
+}
+
+.true{
+text-align: center;
+}
+
+.title{
+text-align: center;
+text-decoration: underline;
+}
+
+.story{
+text-align: center;
+}
+
+.tone{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+.footer{
+background-color: rgb(238, 190, 117);
+max-width: 1250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+margin-top: 0px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+font-size: 25px;
+}
+
+.bottomtriangle{
+display: block;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.bottomtriangle:hover{
+background-image: url(images_for_web/glow-.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+width: 300px;
+padding: 50px;
+}
+
+.link{
+display: block;
+text-align: center;
+}
+

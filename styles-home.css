@@ -20,7 +20,36 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
-.triangle-nav:hover{
+.drop-down{
+position: absolute;
+display: none;
+background-color: rgba(245, 245, 245, 50%);
+margin-top: 0;
+width: 200px;
+text-align: center;
+list-style-type: none;
+padding: 1px;
+padding-bottom: 10px;
+font-size: 20px;
+margin-left: 50px;
+border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30%;
+}
+
+.menu-link{
+color: #1484cd;
+text-decoration: none;
+}
+
+.menu-link:visited{
+color: purple;
+}
+
+.drop-down-trigger:hover .drop-down{
+display: block;
+}
+
+.drop-down-trigger:hover  .triangle-nav{
 width: 300px;
 padding: 50px;
 background-image: url(images_for_web/glow-.png);
