@@ -49,6 +49,7 @@ z-index: 1;
 body:has(.heart:active) .heart-parts{
 display: flex;
 justify-content: center;
+margin-top: -50px;
 }
 
 .doesnt{

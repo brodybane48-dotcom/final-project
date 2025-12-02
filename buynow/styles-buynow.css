@@ -28,8 +28,8 @@ color: white;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 30%;
-margin-top: 50px;
+width: 50%;
+margin-top: 0px;
 }
 
 .cloud-bundle:hover{
@@ -49,7 +49,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
-margin-top: 50px;
+margin-top: 0px;
 }
 
 .findyou{
@@ -63,4 +63,40 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 font-size: 30px;
+margin-top: -200px;
+background-color: #00bfff;
+position: relative;
+z-index: 10;
+padding: 10px;
+width: 200px;
+border-radius: 25px;
+}
+
+.topline{
+color: #ffffff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 30px;
+}
+
+.buycloud1{
+width: 400px;
+}
+
+.buycloud2{
+width: 300px;
+}
+
+.buycloud3{
+width: 200px;
+}
+
+.buycloud4{
+width: 100px;
+}
+
+.buycloud5{
+width: 50px;
 }
