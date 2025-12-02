@@ -83,20 +83,35 @@ font-size: 30px;
 
 .buycloud1{
 width: 400px;
+position: fixed;
+bottom: 20px;
+right: 20px;
 }
 
 .buycloud2{
 width: 300px;
+position: fixed;
+bottom: 100px;
+left: 50px;
 }
 
 .buycloud3{
 width: 200px;
+position: fixed;
+bottom: 400px;
+left: 200px;
 }
 
 .buycloud4{
 width: 100px;
+position: fixed;
+bottom: 600px;
+right: 20px;
 }
 
 .buycloud5{
 width: 50px;
+position: fixed;
+bottom: 700px;
+right: 300px;
 }
