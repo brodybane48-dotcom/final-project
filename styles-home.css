@@ -150,3 +150,47 @@ background-color: rgba(255, 255, 255, 0.3);
 border-radius: 50%;
 padding: 10px;
 }
+
+.hand_holding_cigarette{
+width: 40%;
+margin-top: 300px;
+}
+
+.hand_holding_cigarette:hover{
+cursor: pointer;
+}
+
+.hand_holding_cigarette:active{
+display: none;
+}
+
+.hand_holding_smoking_cigarette{
+display: none;
+}
+
+.home-words{
+color: #ffffff;
+font-size: 30px;
+width: 50%;
+text-align: center;
+}
+
+.side-by-side{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+body:has(.hand_holding_cigarette:active) .hand_holding_smoking_cigarette{
+display: block;
+width: 40%;
+margin-top: 300px;
+}
+
+.pack_in_hands{
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 300px;
+}
