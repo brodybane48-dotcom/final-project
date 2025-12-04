@@ -17,6 +17,7 @@ z-index: 10;
 color: white;
 border: rgb(20, 132, 205);
 border-style: solid;
+padding-bottom: 10px;
 }
 
 .bottomtriangle{
