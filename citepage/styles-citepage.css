@@ -11,53 +11,12 @@ margin-left: auto;
 margin-right: auto;
 padding: 20px;
 margin-top: 50px;
-border-top-left-radius: 25px;
-border-top-right-radius: 25px;
+border-radius: 25px;
 font-size: 25px;
 z-index: 10;
 color: white;
 border: rgb(20, 132, 205);
 border-style: solid;
-border-bottom: none;
-}
-
-.true{
-text-align: center;
-}
-
-.title{
-text-align: center;
-text-decoration: underline;
-margin-top: 0px;
-}
-
-.story{
-text-align: center;
-}
-
-.tone{
-display: flex;
-justify-content: space-between;
-text-align: center;
-}
-
-.footer{
-background-color: rgb(20, 132, 205, 70%);
-max-width: 1250px;
-display: block;
-position: relative;
-margin-left: auto;
-margin-right: auto;
-padding: 20px;
-margin-top: 0px;
-border-bottom-left-radius: 25px;
-border-bottom-right-radius: 25px;
-font-size: 25px;
-z-index: 10;
-color: white;
-border: rgb(20, 132, 205);
-border-style: solid;
-border-top: none;
 }
 
 .bottomtriangle{
@@ -68,6 +27,7 @@ margin-right: auto;
 width: 200px;
 margin-top: 50px;
 margin-bottom: 100px;
+z-index: 50;
 }
 
 .bottomtriangle:hover{
@@ -77,30 +37,7 @@ background-position: center;
 background-size: contain;
 width: 300px;
 padding: 50px;
-}
-
-.link{
-display: block;
-text-align: center;
-color: white;
-}
-
-.contact-cite{
-display: flex;
-justify-content: space-around;
-}
-
-.contact-cite2{
-display: flex;
-justify-content: space-around;
-}
-
-.contact{
-margin-left: -100px;
-}
-
-.cite{
-margin-left: -210px;
+z-index: 50;
 }
 
 .cloud-1{
@@ -156,5 +93,15 @@ text-align: center;
 font-size: 30px;
 margin-top: -100px;
 color: white;
+}
+
+.cite{
+margin-bottom: 10px;
+}
+
+.title{
+text-align: center;
+text-decoration: underline;
+margin-top: 0px;
 }
 
